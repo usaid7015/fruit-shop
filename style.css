@@ -1,0 +1,135 @@
+
+  header{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(#3d4141, #5e667a,  #3d4141);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.4cm;
+    height: 70px; 
+  }
+  #money{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 80px;
+    padding: 0%;
+  }
+  #money p{
+    font-size: 1.1rem;
+  }
+  #money input{
+    border: 2px solid #e4e2e2;
+    height: 2em;
+    width: 7em;
+    border-radius: 33px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0%;
+  }
+  #change {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    padding: 51px 2px;
+    background-color: #efe2cc;
+  }
+  #change input{
+    border: none;
+    color: #f5543e;
+    font-size: 2.5em;
+    width: 1em;
+    background-color: inherit;
+    font-family: auto;
+  }
+  .price{
+    background-color: #2b6b2b;
+    color: #fadfa9;
+    width: 100%;
+    justify-content: center;
+    display: flex;  
+    padding: 10px 0;
+  }
+  #quantity img{
+    width: 71%;
+    height: 87px;
+    margin: 0%;
+  }
+  #quantity{
+    width: fit-content; 
+    display:flex;
+  }
+  #quantity figure{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  margin: 27px;
+  width: 12em;
+  align-items: center;
+  padding-bottom: 3px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  }
+  #shopping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    background-image: linear-gradient(#434745, #60687d,  #434747); 
+  }
+  #shopping p{
+  margin:0;
+  }
+  div #pick {
+    display: flex;
+    border: 2px solid #7f8283;
+    width: 7em;
+    text-align: center;
+    height: 28px;
+    border-radius: 18px;
+    z-index: 1;
+    justify-content: center;
+  }
+  
+  #pick  button {
+    background-image: linear-gradient( #434948, #5a6260); 
+    text-align: center;
+    border: none;
+    vertical-align: middle;
+    margin: 0px;
+    width: 31px;
+    color: white;
+    display: inline-block;
+    height: 29px;
+    font-size: 1rem;
+  }
+  div#pick  .increase {
+    border-radius: 0 25px 25px 0;
+    margin-left: 0px;
+  }
+  div#pick  .decrease {
+    border-radius: 25px 0 0 25px;
+    margin-right: 0px;
+  }
+  #pick input {
+    background-image: linear-gradient(#cccccc,white);
+    border: none;
+    text-align: center;
+    padding: 0;
+    height: 31px;
+    width: 67px;
+    margin: 0px;
+  }
+
+  #pick  button:hover {
+    cursor: pointer;
+  }
+  
